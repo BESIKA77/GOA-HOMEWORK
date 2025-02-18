@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style03.css">
+    <title>documnet</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Contact Us</h1>
+        <form class="form" id="contact-form">
+            <div class="form-group name-inputs">
+                <div>
+                    <label for="first-name">First Name<span class="star">*</span></label>
+                    <input type="text" id="first-name" required>
+                    <span class="error hidden" id="first-name-error">This field is required.</span>
+                </div>
+                <div>
+                    <label for="last-name">Last Name<span class="star">*</span></label>
+                    <input type="text" id="last-name" required>
+                    <span class="error hidden" id="last-name-error">This field is required.</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email<span class="star">*</span></label>
+                <input type="email" id="email" required>
+                <span class="error hidden" id="email-error">Please enter a valid email.</span>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message<span class="star">*</span></label>
+                <textarea id="message" rows="4" required></textarea>
+                <span class="error hidden" id="message-error">This field is required.</span>
+            </div>
+
+            <div class="form-group" id="query">
+                <label>Query Type<span class="star">*</span></label>
+                <div class="query-type">
+                    <label>
+                        <input type="radio" name="query" value="General Enquiry" required>
+                        General Enquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="query" value="Support Request" required>
+                        Support Request
+                    </label>
+                </div>
+                <span class="error hidden" id="query-error">Please select a query type.</span>
+            </div>
+
+            <div class="form-group checkbox">
+                <div>
+                    <input type="checkbox" id="consent" required>
+                    <label for="consent">I agree to the terms and conditions<span class="star">*</span></label>
+                </div>
+                <span class="error hidden" id="consent-error">You must agree to the terms.</span>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div class="toast hidden" id="toast">
+            <div>
+                <img src="./images/icon-check.svg" alt="Success">
+                <span>Your message has been sent successfully!</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

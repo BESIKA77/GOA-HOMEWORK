@@ -1,0 +1,54 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+.main{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    margin-left: 700px;
+    margin-top: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.text{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color:   hsl(0, 0%, 100%);
+}
+.one{
+    margin-left: 30px;
+    font-size: 15px;
+    color: hsl(228, 12%, 48%);
+}
+.two{
+    margin-left: 30px;
+    color: hsl(212, 21%, 14%)
+}
+.three{
+    margin-left: 30px;
+    font-size: 16px;
+    color: hsl(228, 12%, 48%);
+}
+.four{
+    margin-left: 30px;
+    display: flex;
+}
+.p{
+    margin-top: 30px;
+    margin-left: 15px;
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+.h1{
+    color: hsl(158, 36%, 37%);
+}
+.button{
+    margin-left: 30px;
+    width: 230px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: hsl(158, 36%, 37%);
+    color: #fff;
+}
+.button:hover{
+    background-color: hsl(119, 97%, 11%);
+}

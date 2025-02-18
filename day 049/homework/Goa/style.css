@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+header{
+    background-color: green;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+.navbar a:hover{
+    background-color: grey;
+}
+.navbar li{
+    float: left;
+}
+footer ul{
+    font-size: 20px;
+}
+footer h3{
+    font-size: 23px;
+}
+.idk{
+    position: fixed;
+}

@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    'header header aside'
+    'sec1 sec2 aside';
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+aside, header, section, nav{
+    background-color: green;
+    color: black;
+    border: 2px black solid;
+}
+aside{
+    grid-area: aside;
+}
+header{
+    grid-area: header;
+}
+.sec1{
+    grid-area: sec1;
+}
+.sec2{
+    grid-area: sec2;
+}

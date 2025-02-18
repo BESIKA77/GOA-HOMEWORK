@@ -1,0 +1,1 @@
+// no hw 94-es davalebebi shevasrule, gadavxede w3schools

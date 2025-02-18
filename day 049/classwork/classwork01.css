@@ -1,0 +1,65 @@
+header{
+    background-color: black;
+}
+h1{
+    color: #fff;
+    font-size: 20px;
+}
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+.navbar a:hover{
+    background-color: grey;
+    border-radius: 30px;
+}
+.navbar li{
+    font-size: 20px;
+    float: left;
+}
+.contact{
+    background-color: rgb(17, 178, 196);
+    height: 50px;
+    margin-left: 600px;
+    width: 100px;
+    border-radius: 30px;
+    text-align: center;
+}
+.service{
+    margin-left: 650px;
+}
+.name{
+    margin-left: 30px;
+}
+.parent{
+    height: 1000px;
+    width: 1000px;
+    display: flex;
+    position: fixed;
+}
+.child{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    font-size: 50px;
+}
+#first{
+    background-color: rgb(72, 72, 72);
+}
+#second{
+    background-color: rgb(54, 54, 54);
+}
+#third{
+    background-color: rgb(36, 36, 35);
+}
+#forth{
+    background-color: rgb(7, 7, 7);
+}

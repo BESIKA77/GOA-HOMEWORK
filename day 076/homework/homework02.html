@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script src="https://kit.fontawesome.com/a7b822cf68.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+<body class="bg-[#f1e5c5] min-h-screen font-sans text-[#3c3c52]">
+
+<main class="flex justify-center items-center min-h-screen">
+  <section class="bg-white flex flex-col sm:flex-row rounded-xl w-[600px] shadow-lg">
+    <img srcset="images/image-product-desktop.jpg 600w, images/image-product-mobile.jpg 686w"
+         sizes="(max-width: 600px) 686px, 300px"
+         src="images/image-product-desktop.jpg"
+         alt="A bottle of perfume surrounded by foliage"
+         class="w-full sm:w-1/2 object-cover rounded-tl-xl sm:rounded-tl-none sm:rounded-bl-xl">
+
+    <div class="p-8 flex flex-col justify-between">
+      <span class="uppercase tracking-widest text-sm">Perfume</span>
+      <h1 class="font-serif text-[#3c3c52] text-2xl mt-4 mb-2">Gabrielle Essence Eau De Parfum</h1>
+      <p class="text-[#3c3c52] text-base mb-8">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+
+      <div class="flex items-center space-x-4 mb-8">
+        <span class="text-[#a8d08d] font-serif text-xl">$149.99</span>
+        <span class="line-through text-[#a8a8a8] text-lg">$169.99</span>
+      </div>
+
+      <button class="bg-[#a8d08d] text-white py-4 rounded-lg w-full font-semibold flex items-center justify-center hover:bg-[#5e8039] active:bg-[#5e8039] transition duration-200">
+        <i class="fa-solid fa-cart-shopping mr-2"></i>Add to Cart
+      </button>
+    </div>
+  </section>
+</main>
+
+<footer class="text-center text-xs py-4">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="text-[#a8d08d]">Frontend Mentor</a>. 
+  Coded by <a href="http://www.jennymikac.com" class="text-[#a8d08d]">Jenny Mikac</a>.
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    height: 200px;
+    width: 200px;
+}
+.block:active {
+    transform: translate(10px, -30px) scale(2)  rotate(20deg);
+    transform-origin:top center;
+}

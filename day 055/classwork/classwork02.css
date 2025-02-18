@@ -1,0 +1,26 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    font-family: cursive;
+}
+.navbar ul {
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    padding: 15px;
+}
+.navbar a:hover{
+    text-decoration: underline white;
+    background-color: grey;
+}
+.navbar li{
+    float: left;
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+    body {
+        background-color: green;
+    }
+}

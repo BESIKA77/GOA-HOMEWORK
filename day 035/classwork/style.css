@@ -1,0 +1,16 @@
+.first{
+    background-color: aqua;
+    color: brown;
+}
+.second{
+    background-color: darkgreen;
+    color: fuchsia;
+}
+#third{
+    background-color: darkmagenta;
+    color: dodgerblue;
+}
+#forth{
+    background-color: lightgreen;
+    color: mediumaquamarine;
+}

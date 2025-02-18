@@ -1,0 +1,12 @@
+information = []
+name = input("enter your name: ")
+lastname = input("enter your lastname: ")
+age = int(input("enter your age: "))
+address = input("enter your address: ")
+gmail = input("enter your gmail: ")
+information.append(name)
+information.append(lastname)
+information.append(age)
+information.append(address)
+information.append(gmail)
+print(information)

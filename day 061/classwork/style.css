@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0px ;
+}
+
+body {
+    background-color: #eee;
+}
+
+.main {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(4, 600px);
+    grid-template-rows: repeat(6, 250px);
+}
+
+.main div {
+    margin: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.box1 {
+    background-color: #faeee2;
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    font-size: 60px;
+    padding-top: 100px;
+}
+
+.box1 span {
+    color: #7651dc;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.box1 img {
+    width: 250px;
+    padding-top: 30px;
+}
+
+.box2 {
+    background-color: #7651dc;
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+    color: white;
+    padding-top: 43px;
+    font-size: 88px;
+}
+
+.box2 p:last-child {
+    font-size: 20px;
+}
+
+.box2 .italic {
+    font-style: italic;
+}
+
+.box2 span {
+    color: #ffcb69;
+}
+
+.box2 img {
+    width: 300px;
+}
+
+.box3 {
+    background-color: #dcd1fc;
+    grid-column: 4 / 5;
+    grid-row: 1 / 5;
+    font-size: 60px;
+    padding: 50px 0 0 19px;
+}
+
+.box3 img {
+    width: 500px;
+    padding: 30px 0;
+}
+
+.box3 p:last-child {
+    font-size: 28px;
+}
+
+.box4 {
+    background-color: #ffcb69;
+    grid-column: 1 / 2;
+    grid-row: 4 / 7;
+    font-size: 60px;
+    padding: 30px;
+}
+
+.box4 img {
+    width: 400px;
+}
+
+.box5 {
+    background-color: white;
+    grid-column: 2 / 3;
+    grid-row: 3 / 5;
+    font-size: 45px;
+    padding: 30px;
+}
+
+.box5 img {
+    width: 600px;
+}
+
+.box6 {
+    background-color: #ffcb69;
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+    font-size: 55px;
+}
+
+.box6 img {
+    width: 400px;
+}
+
+.box7 {
+    background-color: white;
+    grid-column: 2 / 3;
+    grid-row: 5 / 7;
+    font-size: 30px;
+}
+
+.box7 p:first-child {
+    font-size: 80px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.box7 img {
+    width: 400px;
+}
+
+.box8 {
+    background-color: #7651dc;
+    grid-column: 3 / 5;
+    grid-row: 5 / 7;
+}
+
+.box8 img {
+    width: 400px;
+    padding-right: 20px;
+}
+
+.box8 .par {
+    color: white;
+    font-size: 50px;
+    position: relative;
+    top: -300px;
+}

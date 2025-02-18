@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    'aside header header header'
+    'aside sect1 sect2 sect3'
+    'aside main main main'
+    'aside footer footer footer';
+
+    grid-template-columns: 216px 216px 216px 216px;
+    grid-template-rows: 207px 207px 207px 207px;
+}
+aside, header, section, main, footer{
+    background-color: aqua;
+    color: blue;
+    border: 2px solid blue;
+}
+aside{
+    grid-area: aside;
+}
+header{
+    grid-area: header;
+}
+.sect1{
+    grid-area: sect1;
+}
+.sect2{
+    grid-area: sect2;
+}
+.sect2{
+    grid-area: sect2;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}

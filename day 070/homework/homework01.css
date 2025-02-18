@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    'aside header header set1'
+    'aside set2 set3 nav'
+    'aside set4 set5 nav';
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+}
+aside, header, .set, nav{
+    background-color: green;
+    color: black;
+    border: 2px black solid;
+}
+aside{
+    grid-area: aside;
+}
+header{
+    grid-area: header;
+}
+#set1{
+    grid-area: set1;
+}
+#set2{
+    grid-area: set2;
+}
+#set3{
+    grid-area: set3;
+}
+#set4{
+    grid-area: set4;
+}
+#set5{
+    grid-area: set5;
+}
+nav{
+    grid-area: nav;
+}

@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    'header header header'
+    'navigation main sidebar'
+    'navigation footer footer';
+
+    grid-template-columns: 200px 500px 200px;
+    grid-template-rows: 200px 500px 200px;
+}
+header, nav, main, aside, footer{
+    color: aqua;
+    background-color: brown;
+    border: 2px solid aqua;
+}
+header{
+    grid-area: header;
+}
+nav{
+    grid-area: navigation;
+}
+main{
+    grid-area: main;
+}
+aside{
+    grid-area: sidebar;
+}
+footer{
+    grid-area: footer;
+}

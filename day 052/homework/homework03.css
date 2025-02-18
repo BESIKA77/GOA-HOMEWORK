@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: transform 0.3s ease;
+}
+
+.box1 {
+    transform-origin: top left;
+}
+
+.box2 {
+    transform-origin: center;
+}
+
+.box3 {
+    transform-origin: bottom right;
+}
+
+.box4 {
+    transform-origin: top right;
+}
+
+.box5 {
+    transform-origin: bottom left;
+}
+
+.box1:hover {
+    transform: translate(30px, 30px);
+}
+
+.box1:active {
+    transform: translate(-30px, -30px);
+}
+
+.box2:hover {
+    transform: scale(1.2);
+}
+
+.box2:active {
+    transform: scale(0.8);
+}
+
+.box3:hover {
+    transform: rotate(45deg);
+}
+
+.box3:active {
+    transform: rotate(-45deg);
+}
+
+.box4:hover {
+    transform: skewX(20deg) skewY(10deg);
+}
+
+.box4:active {
+    transform: skewX(-20deg) skewY(-10deg);
+}
+
+.box5:hover {
+    transform: translate(10px, 10px) scale(1.1) rotate(15deg);
+}
+
+.box5:active {
+    transform: translate(-10px, -10px) scale(0.9) rotate(-15deg);
+}

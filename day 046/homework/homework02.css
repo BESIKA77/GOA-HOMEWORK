@@ -1,0 +1,63 @@
+.parent {
+    width: 1000px;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-top: 250px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+
+.South_Korea {
+    width: 300px;
+    height: 200px;
+    background: url(img/korea.png) no-repeat;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.Tbilisi {
+    width: 300px;
+    height: 200px;
+    background: url(img/tbilisi.png) no-repeat;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.New_York {
+    width: 300px;
+    height: 200px;
+    background: url(img/york.png) no-repeat;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.Paris {
+    width: 300px;
+    height: 200px;
+    background: url(img/paris.png) no-repeat;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.Tokyo {
+    width: 300px;
+    height: 200px;
+    background: url(img/tokyo.png) no-repeat;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+.Dubai {
+    width: 300px;
+    height: 200px;
+    background: url(img/dubai.png) no-repeat;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
