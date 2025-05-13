@@ -1,6 +1,0 @@
-.text-smooth {
-    font-smooth: always;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 24px;
-  }
